@@ -157,14 +157,22 @@
          x="95.265007"
          y="1413.9193"
          id="tspan16048"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Bold';fill:#0000ff">    </tspan></text><rect
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Bold';fill:#0000ff">    </tspan></text>
+	   <rect
        style="opacity:1;fill:#0000ff;fill-opacity:1;stroke-width:0.364798;stroke-linecap:round;stroke-miterlimit:7.8"
        id="rect17832"
        width="148.16667"
        height="83.60833"
        x="-229.2888"
        y="59.506149"
-       inkscape:label="video1" /><rect
+       inkscape:label="video1" />
+	   <foreignObject width="560" height="349" x="-229.2888" y="59.506149">
+		<iframe xmlns="http://www.w3.org/1999/xhtml"
+		width="148.16667" height="83.60833"
+		src="https://www.youtube.com/embed/9W-sLJMEdDI"
+		frameborder="0"></iframe>
+		</foreignObject>
+	   <rect
        style="opacity:1;fill:#0000ff;fill-opacity:1;stroke-width:0.480646;stroke-linecap:round;stroke-miterlimit:7.8"
        id="rect17834"
        width="169.33333"
