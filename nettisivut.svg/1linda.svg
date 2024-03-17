@@ -14,8 +14,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns:xhtml="http://www.w3.org/1999/xhtml"><sodipodi:namedview
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
      id="namedview2370"
      pagecolor="#ffffff"
      bordercolor="#cccccc"
@@ -28,7 +27,7 @@
      showgrid="false"
      showguides="false"
      inkscape:zoom="0.39299534"
-     inkscape:cx="1465.6662"
+     inkscape:cx="1468.2108"
      inkscape:cy="578.88727"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
@@ -159,19 +158,5 @@
      y="1413.9193"
      id="tspan16048"
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Bold';fill:#0000ff">    </tspan></text>
-	   <rect
-   style="opacity:1;fill:#7f7fc8;fill-opacity:1;stroke-width:0.364798;stroke-linecap:round;stroke-miterlimit:7.8"
-   id="rect17832"
-   width="148.16667"
-   height="83.60833"
-   x="-229.2888"
-   y="59.506149"
-   inkscape:label="video1" />
-	   <rect
-   style="opacity:1;fill:#0000ff;fill-opacity:1;stroke-width:0.480646;stroke-linecap:round;stroke-miterlimit:7.8"
-   id="rect17834"
-   width="169.33333"
-   height="127"
-   x="-148.16176"
-   y="196.02339"
-   inkscape:label="video2" /></g></svg>
+	   
+	   </g></svg>

@@ -1,84 +1,87 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-<title>Visual Artist Sini Havukainen</title>
 <meta charset="UTF-8">
-<meta name="keywords" content="karmenaattori, kuvataideakatemia, taideyliopisto, kuvan kevät, sini havukainen, visual artist, artist portfolio, diy-art, sculpture, recycled materials, kinetic sculpture, sound sculpture, performance art">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="visual artist, artist portfolio, diy-artist, sculpturer, performance artist, live art, linda">
 <meta name="description" content="Sini Havukainen's artist website">
 <meta name="author" content="Sini Havukainen">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Karmenaattori</title>
 
-<!-- kommentoi viewport pois jos ongelmia tai tee tutorial w3schools.comissa -->
-    <style>
-    table.a {
-    position: fixed;
-    left: 1%;
-    top: 3%;}
-    
-    </style>
-    
-    <style>  
-    h1  {
-  color: black;
-  font-family:"Lucida Sans Unicode",  "Lucida Grande", sans-serif;
-  font-size: 3em;
-}
-    
-    </style>
-    <style> td.a{
-        text-align: center;
-}
-    </style>
-    
-    <style> p.a {
-  font-size: 1em; 
-  font-family: "Lucida Sans Unicode",  "Lucida Grande", sans-serif; 
-  line-height: 1.5;
-}
-        h2.a {
-  font-size:1.2em;
-  line-height:1.5; 
-  font-family: "Lucida Sans Unicode",  "Lucida Grande", sans-serif;
-  font-weight: 60;
-}
-        
-    </style>
-   
-    <style>
-    img {
-  position: fixed;
-  right: 10%;
-  bottom: 0%;
-  max-height: 100%;
-        } 
-</style>
-    
-    <style> iframe {
-        position: fixed;
-        left: 11.5%;
-        bottom: 12%;
-        }
-        .circle {
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+    .background {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: v;
+    }
+
+    .background svg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .videos {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+		overflow: visible;
+    }
+
+    .video-wrapper {
+        position: relative;
+        width: 100%;
+        padding-top: 56.25%; /* 16:9 aspect ratio */
+		overflow: visible;
+    }
+
+    .video {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+		overflow: visible;
+    }
+
+    .video.video-a {
+        width: 24.9%; /* Adjust width as needed */
+		height: 33%;
+        top: 52.15%; /* Adjust top position */
+        left: 11.5%; /* Adjust left position */
+    }
+
+	     .circle {
     height: 50px;
     width: 50px;
     background-color: grey;
     border-radius: 50%;
     }
     
-    .triangle-left {
+     .triangle-left {
 	width: 0;
 	height: 0;
 	border-top: 25px solid transparent;
 	border-right: 50px solid grey;
 	border-bottom: 25px solid transparent;
     }
-    .triangle-right {
+      .triangle-right {
 	width: 0;
 	height: 0;
 	border-top: 25px solid transparent;
-	border-left: 50px solid grey;
+	border-left: 50px solid silver;
 	border-bottom: 25px solid transparent;
     }
         
@@ -88,6 +91,7 @@
     left: 45%;
     bottom: 1.5%;
         }
+   
         
     td.home {
     align-content: center;
@@ -100,48 +104,22 @@
     td.next {
     align-content: flex-end;
         }
-    </style>
 
-<style type="text/css">
-		@page { size: 35.56cm 21.59cm }
 </style>
-
 </head>
-
 <body>
-    
-    <img src="3.karmen.1.jpg">
-    
- 
-    
-    <table style="width:45%" class="a"> 
-        <tr>
-         <th><h1>Karmenaattori</h1></th>
-        </tr>
-        <tr>
-            <td class="a"><p class="a" style= "font-size: 1.3em">2013</p></td>
-        </tr>
-        <tr class="a">
-            <td class="a"><p class="a">Duration 10-15min</p></td>
-        </tr>
-        <tr>
-            <td class="a"><h2 class="a">
-Karmenaattori is a work inspired by Georges Bizet's opera <i>Carmen</i>,<br>and human's desire to shape bodies technologically.<br>Karmenaattori was the first part of my<br>MA graduation work in University of The Arts Helsinki.<br>It was shown 12 times in the Graduation show in 2013.<br>I also showed Karmenaattori in 2015<br>in a performance festival Performanssifiesta in Tampere.
-</h2></td></tr>
-     
-   
-         <iframe width="640" height="480" src="https://www.youtube.com/embed/5r-puz-BRSo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-   
-    </table>
-    
-    <table class="navi">
+<div class="background">
+    <object type="image/svg+xml" data="3karmen.svg" width="100%" height="100%"></object>
+    <div class="videos">
+        <div class="video-wrapper">
+            <iframe class="video video-a" frameBorder="0" src="https://www.youtube.com/embed/5r-puz-BRSo" allowfullscreen></iframe>
+        </div>
+    </div>
+<table class="navi">
     <tr><td class="previous"><a href="en4.varkit.html"><div class="triangle-left"></div></a></td>
         <td class="home"><a href="index.html"><div class="circle"></div></a></td>
         <td class="next"><a href="en2.muna.html"><div class="triangle-right"></div></a></td></tr>
     </table>
-   
-
+</div>
 </body>
-
 </html>

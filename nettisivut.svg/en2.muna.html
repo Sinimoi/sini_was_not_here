@@ -1,121 +1,87 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="keywords" content="Taideyliopisto, kuvataideakatemia, sini havukainen, visual artist, artist portfolio">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="visual artist, artist portfolio, diy-artist, sculpturer, performance artist, live art, linda">
 <meta name="description" content="Sini Havukainen's artist website">
 <meta name="author" content="Sini Havukainen">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Muna</title>
 
-<!-- kommentoi viewport pois jos ongelmia tai tee tutorial w3schools.comissa -->
-    <style>
-    img.a {
-  position: fixed;
-  left: 0%;
-  top: 0%;
-  max-height: 43%;
-        } 
-    img.b {
-  position: fixed;
-  left: 25%;
-  top: 8%;
-max-height: 35%;
-  }
-   img.c {
-   position: fixed;
-   right: 10.97%;
-   top:  15%;
-   max-height: 45%;
-  }    
-   img.d {
-   position: fixed;
-  left: 0%;
-  bottom: 5%;
-        }
-    img.e {
-   position: fixed;
-   right: 0%;
-   bottom: 0%;
-        }
-</style>
-    
-<style>  
-    h1  {
-  color: whitesmoke;
-  -webkit-text-stroke: 3px #C71585;
-  font-family: "Arial Black", Gadget, sans-serif;
-  font-size: 3.5em;
-}
-    th {
-    color: darkred;
-    font-family: "futura", 'Anton', "Arial";
-    font-size: 2em;
-    text-align: center;
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
     }
-        
- td.a {
-     text-align: center;
-        }
-tr{
-    line-height:0.2;
+
+    .background {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: v;
     }
-td.b {
-     text-align: center;
-        }
-tr.a{
-    line-height:1;
+
+    .background svg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
     }
-    
-  table {
-  position: fixed;
-  left: 52%;
-  top: 4%;
-  width: 20%;      
+
+    .videos {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+		overflow: visible;
     }
-    table.a {
-    background-color: rgb(230, 205, 139);
-    width: 24%;
-    height: 34.15%;
-    position: fixed;
-    left: 76%;
-    top: 15%;
+
+    .video-wrapper {
+        position: relative;
+        width: 100%;
+        padding-top: 56.25%; /* 16:9 aspect ratio */
+		overflow: visible;
     }
-</style>
-    
-<style> p {
-  font-size: 1.3em; 
-  font-family: Arial, Helvetica, sans-serif; 
-  color: brown;
-}
-</style>
- 
-<style> 
-    iframe {
-    position: fixed;
-    left: 47%;
-    bottom: 12%;
-        }
-    .circle {
+
+    .video {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+		overflow: visible;
+    }
+
+    .video.video-a {
+        width: 30.4%; /* Adjust width as needed */
+		height: 35.68%;
+        top: 56.2%; /* Adjust top position */
+        left: 41.8%; /* Adjust left position */
+    }
+
+	     .circle {
     height: 50px;
     width: 50px;
     background-color: grey;
     border-radius: 50%;
     }
     
-    .triangle-left {
+     .triangle-left {
 	width: 0;
 	height: 0;
 	border-top: 25px solid transparent;
 	border-right: 50px solid grey;
 	border-bottom: 25px solid transparent;
     }
-    .triangle-right {
+      .triangle-right {
 	width: 0;
 	height: 0;
 	border-top: 25px solid transparent;
-	border-left: 50px solid grey;
+	border-left: 50px solid silver;
 	border-bottom: 25px solid transparent;
     }
         
@@ -123,8 +89,9 @@ tr.a{
     width: 20%;
     position: fixed;
     left: 45%;
-    top: 93%;
+    bottom: 1.5%;
         }
+   
         
     td.home {
     align-content: center;
@@ -137,40 +104,22 @@ tr.a{
     td.next {
     align-content: flex-end;
         }
-</style>
-  
 
-<title>Visual Artist Sini Havukainen</title>
-<style type="text/css">
-		@page { size: 35.56cm 21.59cm }
 </style>
-
 </head>
-
 <body>
-    
-    <img src="2.muna.4.jpg" class="d">
-    <img src="2.muna.2.jpg" class="b">
-    <img src="2.muna.1.jpeg" class="a">
-    <img src="2.muna.3.jpg" class="c">
-    <img src="2.muna.5.jpeg" class="e">
- 
-    <table><tr><td class="a"><h1>MUNA</h1></td></tr>
-    <tr><th>2011</th></tr>
-    </table>
-    
-    <table class="a"><tr class="a"><td class="b"><p>Muna ("The Egg") was Experimental Anatomy course.<br>With action, sound and movement I tried to represent,<br>how it feels like, when an egg travels through a body.</p></td></tr> 
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/Ch2OCsVm9U8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-         <!--<iframe width="640" height="360" src="5.1.m4v" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
-    </table>
-    
-   <table class="navi">
+<div class="background">
+    <object type="image/svg+xml" data="2muna.svg" width="100%" height="100%"></object>
+    <div class="videos">
+        <div class="video-wrapper">
+            <iframe class="video video-a" frameBorder="0" src="https://www.youtube.com/embed/Ch2OCsVm9U8" allowfullscreen></iframe>
+        </div>
+    </div>
+	    <table class="navi">
     <tr class="c"><td class="previous"><a href=en3.karmen.html><div class="triangle-left"></div></a></td>
         <td class="home"><a href="index.html"><div class="circle"></div></a></td>
         <td class="next"><a href="en1.linda.html"><div class="triangle-right"></div></a></td></tr>
     </table>
-    
-    
+</div>
 </body>
-
 </html>

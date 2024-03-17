@@ -1,98 +1,87 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="keywords" content="tromso, open out festival, artist in residence, small projects gallery, questions for fossilists, sini havukainen, katti koskinen, visual artist, artist portfolio, diy-artist, sculpturer, performance artist, live art">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="visual artist, artist portfolio, diy-artist, sculpturer, performance artist, live art, linda">
 <meta name="description" content="Sini Havukainen's artist website">
 <meta name="author" content="Sini Havukainen">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Questions for Fossilists</title>
 
-<!-- kommentoi viewport pois jos ongelmia tai tee tutorial w3schools.comissa -->
-    <style>
-    table.a {
-    position: fixed;
-    left: 2%;
-    top: 8.5%;}
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
 
-    </style>
-    
-    <style>  
-    h1  {
-  color: black;
-  font-family:Impact, Charcoal, sans-serif;
-  font-size: 3em;
-}
-    </style>
-   
-    <style>
-    img.a {
-  position: fixed;
-  left: 30%;
-   top: 47%;
+    .background {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: v;
+    }
 
-        } 
-    img.b {
-  position: fixed;
-  right: 0%;
-  top: 10%;
-  }
-   img.d {
-   position: fixed;
-       left: 30%;
-       top: 0%;
-        }
-    table.b {
-    position: fixed;
-    left: 5.5%;
-    bottom: 11.8%;
-}
-</style>
-    <style> td.a{
-        text-align: center;
-}
-    </style>
-<style> p {
-  font-size: 1.5em; 
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
-}
-        p.a {
-  font-size:1em;
-}
-    </style>
-    
-    <style>
-       iframe.b {
-        
-    position: relative;
-    left: -7%;
-    top: 50%;
-}
-    td.b {
-    position: relative;
-    left: 30%;
-    top: 50%;
-}
-    .circle {
+    .background svg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .videos {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+		overflow: visible;
+    }
+
+    .video-wrapper {
+        position: relative;
+        width: 100%;
+        padding-top: 56.25%; /* 16:9 aspect ratio */
+		overflow: visible;
+    }
+
+    .video {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+		overflow: visible;
+    }
+
+    .video.video-a {
+        width: 28%; /* Adjust width as needed */
+		height: 28%;
+        top: 47.1%; /* Adjust top position */
+        left: 2%; /* Adjust left position */
+    }
+
+	     .circle {
     height: 50px;
     width: 50px;
     background-color: grey;
     border-radius: 50%;
     }
     
-    .triangle-left {
+     .triangle-left {
 	width: 0;
 	height: 0;
 	border-top: 25px solid transparent;
 	border-right: 50px solid grey;
 	border-bottom: 25px solid transparent;
     }
-    .triangle-right {
+      .triangle-right {
 	width: 0;
 	height: 0;
 	border-top: 25px solid transparent;
-	border-left: 50px solid grey;
+	border-left: 50px solid silver;
 	border-bottom: 25px solid transparent;
     }
         
@@ -102,6 +91,7 @@
     left: 45%;
     bottom: 1.5%;
         }
+   
         
     td.home {
     align-content: center;
@@ -114,62 +104,22 @@
     td.next {
     align-content: flex-end;
         }
-    </style>
-    
 
-<title>Visual Artist Sini Havukainen</title>
-<style type="text/css">
-		@page { size: 35.56cm 21.59cm }
 </style>
- 
 </head>
-
 <body>
-    
-    <img src="5.fossil.1.jpeg" class="a">
-    <img src="5.fossil2.jpg" class="b">
-    
- <table class="b"> <tr><td>  
-<iframe width="560" height="315" src="https://www.youtube.com/embed/C49hKS5PXys" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen name="iframe_a" class="b"></iframe>
-    
-
-        
-     </td></tr>
-        <tr><td class="b">
-        <p>Watch the video.</p></td></tr>
-    </table>
-    
-    <img src="5.fossil.5.jpeg" class="d">
-
-     
- 
-   
-  
-    
-    <table style="width:25%" class="a"> 
-        <tr>
-         <th><h1>Questions for fossilists</h1></th>
-        </tr>
-        <tr>
-            <td class="a"><p>An exhibition with Katti Koskinen</p></td>
-        </tr>
-        <tr>
-            <td class="a"><p>Small Projects, Tromsø 2019</p></td>
-        </tr>
-        <tr>
-            <td class="a"><p class="a">an object installation and a video about "future fossiles" collected from the shores</p></td>
-        </tr>
-        <tr>
-            <td class="a"><p class="a">imagined from the point of view of future non-human archeologists</p></td>
-        </tr>
-    </table>
-
+<div class="background">
+    <object type="image/svg+xml" data="5fossil.svg" width="100%" height="100%"></object>
+    <div class="videos">
+        <div class="video-wrapper">
+            <iframe class="video video-a" frameBorder="0" src="https://www.youtube.com/embed/C49hKS5PXys" allowfullscreen></iframe>
+        </div>
+    </div>
     <table class="navi">
     <tr><td class="previous"><a href="en6.sirkka.html"><div class="triangle-left"></div></td>
         <td class="home"><a href="index.html"><div class="circle"></div></a></td>
         <td class="next"><a href="en4.varkit.html"><div class="triangle-right"></div></a></td></tr>
     </table>
-    
+</div>
 </body>
-
 </html>
