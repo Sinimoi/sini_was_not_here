@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SVG Background with Video Slots</title>
+
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+    .background {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .background svg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .videos {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .video-wrapper {
+        position: relative;
+        width: 100%;
+        padding-top: 56.25%; /* 16:9 aspect ratio */
+    }
+
+    .video {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+    .video.video-a {
+        width: 43%; /* Adjust width as needed */
+		height: 22%;
+        top: 14%; /* Adjust top position */
+        left: 110%; /* Adjust left position */
+    }
+
+    .video.video-b {
+        width: 50%; /* Adjust width as needed */
+		height: 33%;
+        top: 50%; /* Adjust top position */
+        left: 34%; /* Adjust left position */
+    }
+
+</style>
+</head>
+<body>
+<div class="background">
+    <object type="image/svg+xml" data="1linda.svg" width="100%" height="100%"></object>
+    <div class="videos">
+        <div class="video-wrapper">
+            <iframe class="video video-a" src="https://www.youtube.com/embed/9W-sLJMEdDI" allowfullscreen></iframe>
+        </div>
+        <div class="video-wrapper">
+            <iframe class="video video-b" src="https://www.youtube.com/embed/3Kz8JoFOEd8" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+</body>
+</html>
